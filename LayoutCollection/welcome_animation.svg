@@ -1,0 +1,67 @@
+<svg class="ldt-blank" width="280px" height="59px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" style="animation-play-state: running; animation-delay: 0s; background: none;"><style type="text/css" style="animation-play-state: running; animation-delay: 0s;">path,ellipse,circle,rect,polygon,polyline,line { stroke-width: 0; }
+@keyframes ldt-grow-h {
+  0% {
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes ldt-grow-h {
+  0% {
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+}
+.ldt-grow-px-ltr {
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+  -webkit-animation: ldt-grow-h 1s cubic-bezier(0, 0.5, 0.5, 1) forwards;
+  animation: ldt-grow-h 1s cubic-bezier(0, 0.5, 0.5, 1) forwards;
+  -webkit-transform-origin: 0 50px !important;
+  transform-origin: 0 50px !important;
+}
+
+text { font-family: Arial }</style><g transform="translate(12.046875 48.25)" style="opacity: 1; animation-play-state: running; animation-delay: 0s;">
+  <g style="animation-delay: 0s; animation-duration: 1s; font-size: 56px; animation-direction: normal; transform-origin: 18.6719px 0px 0px; animation-play-state: running;" class="ld ldt-grow-px-ltr">
+    <text fill="#d83801" style="font-family: Arial; animation-play-state: running; animation-delay: 0s;">S</text>
+  </g>
+</g><g transform="translate(49.390625 48.25)" style="opacity: 1; animation-play-state: running; animation-delay: 0s;">
+  <g style="animation-delay: 0.111111s; animation-duration: 1s; font-size: 56px; animation-direction: normal; transform-origin: 14px 0px 0px; animation-play-state: running;" class="ld ldt-grow-px-ltr">
+    <text fill="#d83801" style="font-family: Arial; animation-play-state: running; animation-delay: 0s;">k</text>
+  </g>
+</g><g transform="translate(77.390625 48.25)" style="opacity: 1; animation-play-state: running; animation-delay: 0s;">
+  <g style="animation-delay: 0.222222s; animation-duration: 1s; font-size: 56px; animation-direction: normal; transform-origin: 14px 0px 0px; animation-play-state: running;" class="ld ldt-grow-px-ltr">
+    <text fill="#d83801" style="font-family: Arial; animation-play-state: running; animation-delay: 0s;">y</text>
+  </g>
+</g><g transform="translate(105.390625 48.25)" style="opacity: 1; animation-play-state: running; animation-delay: 0s;">
+  <g style="animation-delay: 0.333333s; animation-duration: 1s; font-size: 56px; animation-direction: normal; transform-origin: 20.2188px 0px 0px; animation-play-state: running;" class="ld ldt-grow-px-ltr">
+    <text fill="#d83801" style="font-family: Arial; animation-play-state: running; animation-delay: 0s;">w</text>
+  </g>
+</g><g transform="translate(145.828125 48.25)" style="opacity: 1; animation-play-state: running; animation-delay: 0s;">
+  <g style="animation-delay: 0.444444s; animation-duration: 1s; font-size: 56px; animation-direction: normal; transform-origin: 15.5703px 0px 0px; animation-play-state: running;" class="ld ldt-grow-px-ltr">
+    <text fill="#d83801" style="font-family: Arial; animation-play-state: running; animation-delay: 0s;">a</text>
+  </g>
+</g><g transform="translate(176.96875 48.25)" style="opacity: 1; animation-play-state: running; animation-delay: 0s;">
+  <g style="animation-delay: 0.555556s; animation-duration: 1s; font-size: 56px; animation-direction: normal; transform-origin: 6.21875px 0px 0px; animation-play-state: running;" class="ld ldt-grow-px-ltr">
+    <text fill="#d83801" style="font-family: Arial; animation-play-state: running; animation-delay: 0s;">l</text>
+  </g>
+</g><g transform="translate(189.40625 48.25)" style="opacity: 1; animation-play-state: running; animation-delay: 0s;">
+  <g style="animation-delay: 0.666667s; animation-duration: 1s; font-size: 56px; animation-direction: normal; transform-origin: 14px 0px 0px; animation-play-state: running;" class="ld ldt-grow-px-ltr">
+    <text fill="#d83801" style="font-family: Arial; animation-play-state: running; animation-delay: 0s;">k</text>
+  </g>
+</g><g transform="translate(217.40625 48.25)" style="opacity: 1; animation-play-state: running; animation-delay: 0s;">
+  <g style="animation-delay: 0.777778s; animation-duration: 1s; font-size: 56px; animation-direction: normal; transform-origin: 15.5703px 0px 0px; animation-play-state: running;" class="ld ldt-grow-px-ltr">
+    <text fill="#d83801" style="font-family: Arial; animation-play-state: running; animation-delay: 0s;">e</text>
+  </g>
+</g><g transform="translate(248.546875 48.25)" style="opacity: 1; animation-play-state: running; animation-delay: 0s;">
+  <g style="animation-delay: 0.888889s; animation-duration: 1s; font-size: 56px; animation-direction: normal; transform-origin: 9.70312px 0px 0px; animation-play-state: running;" class="ld ldt-grow-px-ltr">
+    <text fill="#d83801" style="font-family: Arial; animation-play-state: running; animation-delay: 0s;">r</text>
+  </g>
+</g></svg>

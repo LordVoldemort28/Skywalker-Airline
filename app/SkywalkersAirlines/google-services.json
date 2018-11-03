@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "772760679286",
+    "firebase_url": "https://skywalkerairlines.firebaseio.com",
+    "project_id": "skywalkerairlines",
+    "storage_bucket": "skywalkerairlines.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772760679286:android:27571667e7a7fefa",
+        "android_client_info": {
+          "package_name": "com.example.student.skywalkerairlines"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772760679286-f6oduca8t58oo8qknpb0rd09a5bfadhb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAqNOdl6fzn7U5X7oGso5WyKIvuaYM--E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

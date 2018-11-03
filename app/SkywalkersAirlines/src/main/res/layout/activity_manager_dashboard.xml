@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/checkInLayout"
+        android:layout_marginTop="25dp">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorOrangePrimary"
+            android:keyboardNavigationCluster="true">
+
+
+        </android.support.v7.widget.Toolbar>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageButton
+            android:id="@+id/flightButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTransparent"
+            android:src="@mipmap/flight_button"
+            android:layout_marginTop="150dp"
+            >
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/crewButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTransparent"
+            android:src="@mipmap/crew_button"
+            android:layout_marginTop="350dp"
+            >
+
+        </ImageButton>
+
+    </RelativeLayout>>
+</android.support.constraint.ConstraintLayout>
