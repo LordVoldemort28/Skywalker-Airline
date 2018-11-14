@@ -1,4 +1,8 @@
 package com.example.student.skywalkerairlines;
 
-public class ActivityRegisterPage {
+import android.support.v7.app.AppCompatActivity;
+
+public class ActivityRegisterPage extends AppCompatActivity {
+
+
 }

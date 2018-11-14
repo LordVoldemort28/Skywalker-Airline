@@ -1,10 +1,10 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorOrangerPrimaryDark</item>
-        <item name="colorPrimaryDark">@color/colorOrangerPrimaryDark</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/colorBlackSecondary</item>
         <item name="colorAccent">@color/colorBlackPrimary</item>
         <item name="windowNoTitle">true</item>
         <item name="colorControlActivated">#FFF</item>
@@ -22,6 +22,7 @@
         <item name="colorControlHighlight">#FFF</item>
 
     </style>
+
 
 
 </resources>

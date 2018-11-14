@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient"
+    android:background="@color/white"
     >
 
 
@@ -18,7 +18,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorOrangePrimary"
+            android:background="@color/colorBlackPrimary"
             android:keyboardNavigationCluster="true">
 
 
@@ -29,17 +29,15 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        >
+        android:layout_height="wrap_content">
 
         <ImageButton
             android:id="@+id/flightButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorTransparent"
-            android:src="@mipmap/flight_button"
             android:layout_marginTop="150dp"
-            >
+            android:background="@color/colorTransparent"
+            android:src="@mipmap/flight_button">
 
         </ImageButton>
 
@@ -47,12 +45,23 @@
             android:id="@+id/crewButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorTransparent"
-            android:src="@mipmap/crew_button"
             android:layout_marginTop="350dp"
-            >
+            android:background="@color/colorTransparent"
+            android:src="@mipmap/crew_button">
 
         </ImageButton>
 
-    </RelativeLayout>>
+        <TextView
+            android:id="@+id/dashboard_username_check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:textColorHint="@color/colorBlackPrimary"
+            android:layout_marginTop="455dp"
+            android:gravity="center"
+            android:textColor="@color/colorBlackPrimary" />
+
+    </RelativeLayout>
+
+
 </android.support.constraint.ConstraintLayout>
