@@ -3,65 +3,77 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    tools:context=".MainActivity"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@drawable/gradient"
     >
 
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/dashboard_username_check"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:id="@+id/checkInLayout"
-        android:layout_marginTop="25dp">
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/colorBlackPrimary"
-            android:keyboardNavigationCluster="true">
-
-
-        </android.support.v7.widget.Toolbar>
-
-
-    </LinearLayout>
+        android:hint="Username"
+        android:textColorHint="@color/colorWhite"
+        android:gravity="center"
+        android:textColor="@color/colorWhite" />
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <ImageButton
-            android:id="@+id/flightButton"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="150dp"
-            android:background="@color/colorTransparent"
-            android:src="@mipmap/flight_button">
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="250dp">
 
-        </ImageButton>
+            <Button
+                android:id="@+id/b_flight_page"
+                android:layout_width="150dp"
+                android:background="@drawable/curvy_button"
+                android:text="@string/action_flight_page"
+                android:textColor="@color/colorBlackPrimary"
+                android:layout_height="150dp"
+               android:layout_marginLeft="40dp"/>
 
-        <ImageButton
-            android:id="@+id/crewButton"
+            <Button
+                android:id="@+id/b_crew_page"
+                android:layout_width="150dp"
+                android:background="@drawable/curvy_button"
+                android:textColor="@color/colorBlackPrimary"
+                android:layout_height="150dp"
+                android:text="@string/action_crew_page"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="350dp"
-            android:background="@color/colorTransparent"
-            android:src="@mipmap/crew_button">
+            android:layout_height="match_parent"
+            android:layout_marginTop="260dp"
+            android:layout_marginBottom="70dp">
 
-        </ImageButton>
+            <Button
+                android:id="@+id/b_add_aircraft"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/curvy_button"
+                android:textColor="@color/colorBlackPrimary"
+                android:text="@string/action_create_aircraft"
+                android:layout_marginLeft="40dp"/>
 
-        <TextView
-            android:id="@+id/dashboard_username_check"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Username"
-            android:textColorHint="@color/colorBlackPrimary"
-            android:layout_marginTop="455dp"
-            android:gravity="center"
-            android:textColor="@color/colorBlackPrimary" />
+            <Button
+                android:id="@+id/b_add_airport_page"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/curvy_button"
+                android:text="@string/action_create_airport"
+                android:textColor="@color/colorBlackPrimary"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
 
     </RelativeLayout>
-
-
 </android.support.constraint.ConstraintLayout>

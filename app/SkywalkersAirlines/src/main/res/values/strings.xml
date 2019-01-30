@@ -4,4 +4,11 @@
     <string name="password">Password</string>
     <string name="login">Login</string>
     <string name="isManager">Are you a Manager</string>
+    <string name="position">Position</string>
+    <string name="location">Location</string>
+    <string name="action_logout">Logout</string>>
+    <string name="action_flight_page">Flight</string>>
+    <string name="action_crew_page">Crew</string>>
+    <string name="action_create_aircraft">Aircraft</string>>
+    <string name="action_create_airport">Airport</string>>
 </resources>

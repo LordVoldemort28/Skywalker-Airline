@@ -6,11 +6,10 @@
     <color name="colorOrangePrimary">#ff551b</color>
     <color name="colorOrangerPrimaryDark">#d83801</color>
     <color name="colorOrangeSecondaryDark">#CBD83801</color>>
-    <color name="colorBlackPrimary">#000000</color>>
+    <color name="colorBlackPrimary">#252729</color>>
     <color name="colorBlackSecondary">#2D3032</color>>
     <color name="colorTransparent">#00ffffff</color>>
-    <color name="white">#FFFFFF</color>>
-    <color name="whiteDark">#1d060606</color>>
+    <color name="colorWhite">#FFFFFF</color>>
 
 
 </resources>

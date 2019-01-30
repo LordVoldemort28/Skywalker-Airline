@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:elevation="7dp"
+        app:cardCornerRadius="7dp"
+        app:cardMaxElevation="7dp"
+        app:contentPadding="7dp"
+        android:layout_margin="5dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_flight_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Flight No."
+                android:textSize="17dp"
+                android:textColor="@color/colorWhite"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="30dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_airport_src"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Source"
+                android:textSize="15dp"
+                android:textColor="@color/colorWhite"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_airport_dest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Destination"
+                android:textSize="15dp"
+                android:textColor="@color/colorWhite"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_src_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="12:00"
+                android:textSize="15dp"
+                android:textColor="@color/colorWhite"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="55dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_dest_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="!4:00"
+                android:textSize="15dp"
+                android:textColor="@color/colorWhite"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="55dp"
+                />
+
+            <ImageView
+                android:layout_width="53dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/ic_arrow_right_alt_24" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

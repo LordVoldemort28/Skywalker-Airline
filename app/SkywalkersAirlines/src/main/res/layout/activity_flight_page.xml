@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FlightPage"
+    android:background="@drawable/gradient"
+    android:layout_height="match_parent">
+
+
+
+    <!--Three check box
+    Flight No., Src, Destination
+    Search Bar and rest recycler view-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/rl_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <CheckBox
+                android:id="@+id/flight_number_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Flight No."
+                android:textColor="#FFFFFF"
+                android:textSize="12dp" />
+
+
+            <CheckBox
+                android:id="@+id/flight_src_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Source Airport"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp" />
+
+            <CheckBox
+                android:id="@+id/flight_dest_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Destination Airport"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp">
+
+            <EditText
+                android:id="@+id/flight_search_bar"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:backgroundTint="#FFFFFF"
+                android:hint="Flight No, Src or Dest...."
+                android:textColorHint="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/flight_search"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/curvy_button"
+                android:drawableLeft="@drawable/ic_search_24"
+                android:layout_marginLeft="5dp">
+
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="110dp">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_flight_display"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+
+            </android.support.v7.widget.RecyclerView>
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/add_flight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:outlineAmbientShadowColor="@color/colorBlackPrimary"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="right|bottom|end"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="54dp"
+        android:src="@drawable/ic_add_24"
+        app:fabSize="normal" />
+
+
+</RelativeLayout>

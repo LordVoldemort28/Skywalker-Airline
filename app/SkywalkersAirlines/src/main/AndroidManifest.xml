@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.student.skywalkerairlines">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
@@ -22,14 +22,42 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".ActivityLogin"
+        <activity android:name=".ActivityLoginPage"
             android:theme="@style/AppTheme.NoActionBar"/>
 
         <activity android:name=".MainActivity"
             android:theme="@style/AppTheme"/>
 
         <activity android:name=".ActivityRegisterPage"
-            android:theme="@style/AppTheme.NoActionBar"/>
-    </application>
+            android:theme="@style/AppTheme.NoActionBar" />
 
+        <activity android:name=".FlightPage"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".CrewPage"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".ActivityAirportPage"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".ActivityAircraftPage"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".ProfileRegister"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".ActivityRegisterPage"/>
+
+        <activity android:name=".ActivityCrewDashboard"
+            android:theme="@style/AppTheme"/>
+
+        <activity android:name=".ActivityAddAirport"
+            android:parentActivityName=".ActivityAirportPage"/>
+
+        <activity android:name=".ActivityAddAircraft"
+            android:parentActivityName=".ActivityAircraftPage"/>
+
+        <activity android:name=".ActivityLogs"
+            android:parentActivityName=".MainActivity"/>
+
+    </application>
 </manifest>

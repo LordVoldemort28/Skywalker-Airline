@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".ActivityAddAirport">
+
+    <TextView
+        android:id="@+id/header1"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Add Airport!!!"
+        android:textAlignment="center"
+        android:textColor="@color/colorOrangerPrimaryDark"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/header1"
+        android:layout_marginTop="80dp">
+
+        <EditText
+            android:id="@+id/add_airport_name"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:padding="10sp"
+            android:ems="10"
+            android:hint="Airport Name"
+            android:textColor="#fff"
+            android:textColorHint="#FFF"/>
+
+        <EditText
+            android:id="@+id/add_airport_code"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:padding="10sp"
+            android:ems="10"
+            android:hint="Airport Code (Ex. LNK )"
+            android:textColor="#fff"
+            android:textColorHint="#FFF" />
+
+        <EditText
+            android:id="@+id/add_airport_coordinates"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:padding="10sp"
+            android:ems="10"
+            android:hint="Coordinates (Ex. 0;0)"
+            android:textColor="#fff"
+            android:textColorHint="#FFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/formLinearLayout"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="420dp">
+        <Button
+            android:id="@+id/b_add_airport"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="145dp"
+            android:text="Add"
+            android:textColor="@color/colorOrangerPrimaryDark"/>
+    </LinearLayout>
+
+</RelativeLayout>

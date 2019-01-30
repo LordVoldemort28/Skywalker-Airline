@@ -21,6 +21,19 @@ Increment 4 Folder
 * In source code there's not much implementation but we are almost done with
 our layouts(UI layout) for the phone application as we planned.
 
+Increment 5 Folder
+
+* We have the test plan and test reports that we designed looking at our overall project vision.
+* We passed only one test case because we are planning to get done with the implementation by wednesday next week.
+* Our latest code is updated in the dashboard branch.
+* Algorithm for searching and sorting is in algov2 made by Aniruddh.
+
+Increment 6 Updates
+
+* Models folder include every model and diagram we used in RAD and SDD.
+* Tests folder include test report for every functionality and test plan file inculde detailed test cases. 
+* We updated the RAD and SDD up to date. 
+
 Tools - Android studio, Firestore, Google maps API and Firebase Authentication 
 
 Instructions to run the application
@@ -31,20 +44,6 @@ Instructions to run the application
 3. Open Android studio 
 4. open folder CS_361/app
 5. Build the project in your phone and use it !!!
-
-
-# Skywalker-Airline
-
-Airports
-
-Linoln, Nebraska 
-
-Iowa, City
-
-Omaha, Nebraska
-
-Colorado Springs, Colorado
-
 
 
 
